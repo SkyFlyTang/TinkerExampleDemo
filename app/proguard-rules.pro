@@ -20,3 +20,10 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 -dontwarn com.yanzhenjie.permission.**
+-keepattributes SourceFile,LineNumberTable
+
+-dontwarn com.google.**
+
+-dontwarn com.android.**
+
+
